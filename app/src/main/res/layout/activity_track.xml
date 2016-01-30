@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="64dp"
+            android:id="@+id/cpersonID"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="ID" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="65dp"
+            android:id="@+id/cpersonName"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="TimeStamp" />
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="65dp"
+            android:id="@+id/cpersonMobile"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="Mobile" />
+
+        <TextView
+            android:layout_width="69dp"
+            android:layout_height="63dp"
+            android:id="@+id/cpersonLat"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="Latitude" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:id="@+id/cpersonLng"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="Longitude" />
+
+    </GridLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView2"/>
+</LinearLayout>
